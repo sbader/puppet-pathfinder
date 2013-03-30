@@ -7,7 +7,7 @@
 class pathfinder() {
 
   package { "PF6_LION":
-    ensure   => installed
+    ensure   => installed,
     provider => 'compressed_app',
     source   => "http://get.cocoatech.com/PF6_LION.zip",
   }
